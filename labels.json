@@ -53,5 +53,10 @@
     "name": "priority: low",
     "color": "009800",
     "description": "We could do this later"
+  },
+  {
+    "name": "DO NOT MERGE",
+    "color": "dc3545",
+    "description": "Never merge this pull request!"
   }
 ]
