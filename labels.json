@@ -43,5 +43,15 @@
     "name": "wontfix",
     "color": "ffffff",
     "description": "This will not be worked on"
+  },
+  {
+    "name": "priority: high",
+    "color": "eb6420",
+    "description": "We should tackle immediately to this "
+  },
+  {
+    "name": "priority: low",
+    "color": "009800",
+    "description": "We could do this later"
   }
 ]
