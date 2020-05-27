@@ -10,5 +10,6 @@ Use [github-label-sync](https://github.com/Financial-Times/github-label-sync) an
 2. Set the new token above in your terminal, e.g. `export GITHUB_ACCESS_TOKEN=xxxxxx`
 3. Try to sync with dry-run mode: `npx github-label-sync sider/<repo> --allow-added-labels --dry-run`
 4. Sync actually: `npx github-label-sync sider/<repo> --allow-added-labels`
+5. [Delete the generated token](https://github.com/settings/tokens) on GitHub
 
 Note that we should **always set `--allow-added-labels`** because existing labels would be deleted without it.
