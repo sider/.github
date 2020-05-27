@@ -50,6 +50,11 @@
     "description": "Just improve code quality"
   },
   {
+    "name": "enterprise",
+    "color": "a7bf2f",
+    "description": "About Sider Enterprise"
+  },
+  {
     "name": "priority: high",
     "color": "eb6420",
     "description": "We should tackle immediately to this "
