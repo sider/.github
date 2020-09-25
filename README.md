@@ -4,6 +4,8 @@ See the [document](https://help.github.com/en/github/building-a-strong-community
 
 ## Syncing labels
 
+You can add or edit labels in [`labels.json`](labels.json) (in alphabetical order).
+
 Use [github-label-sync](https://github.com/Financial-Times/github-label-sync) and follow the steps:
 
 1. [Get a new access token](https://github.com/settings/tokens/new?description=Sider+labels+sync&scopes=repo) in GitHub
