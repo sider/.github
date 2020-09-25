@@ -8,8 +8,10 @@ Use [github-label-sync](https://github.com/Financial-Times/github-label-sync) an
 
 1. [Get a new access token](https://github.com/settings/tokens/new?description=Sider+labels+sync&scopes=repo) in GitHub
 2. Set the new token above in your terminal, e.g. `export GITHUB_ACCESS_TOKEN=xxxxxx`
-3. Try to sync with dry-run mode: `npx github-label-sync sider/<repo> --allow-added-labels --dry-run`
-4. Sync actually: `npx github-label-sync sider/<repo> --allow-added-labels`
-5. [Delete the generated token](https://github.com/settings/tokens) on GitHub
+3. Try to sync with dry-run mode: `npx github-label-sync sider/.github --allow-added-labels --dry-run`
+4. Sync actually: `npx github-label-sync sider/.github --allow-added-labels`
+5. Check the synced labels on the [labels](https://github.com/sider/.github/labels) page
+6. Try to sync for other repositories: `npx github-label-sync sider/<repo> --allow-added-labels [--dry-run]`
+7. [Delete the generated token](https://github.com/settings/tokens) on GitHub
 
 Note that we should **always set `--allow-added-labels`** because existing labels would be deleted without it.

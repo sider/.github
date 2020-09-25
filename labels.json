@@ -40,6 +40,11 @@
     "description": "This doesn't seem right"
   },
   {
+    "name": "pinned",
+    "color": "c5def5",
+    "description": "Prevent to be closed"
+  },
+  {
     "name": "question",
     "color": "d876e3",
     "description": "Further information is requested"
