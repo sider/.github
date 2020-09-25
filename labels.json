@@ -5,6 +5,11 @@
     "description": "Something isn't working"
   },
   {
+    "name": "DO NOT MERGE",
+    "color": "dc3545",
+    "description": "Never merge this pull request!"
+  },
+  {
     "name": "documentation",
     "color": "0075ca",
     "description": "Improvements or additions to documentation"
@@ -23,6 +28,11 @@
     "name": "enhancement",
     "color": "a2eeef",
     "description": "New feature or request"
+  },
+  {
+    "name": "enterprise",
+    "color": "a7bf2f",
+    "description": "About Sider Enterprise"
   },
   {
     "name": "good first issue",
@@ -45,26 +55,6 @@
     "description": "Prevent to be closed"
   },
   {
-    "name": "question",
-    "color": "d876e3",
-    "description": "Further information is requested"
-  },
-  {
-    "name": "wontfix",
-    "color": "eeeeee",
-    "description": "This will not be worked on"
-  },
-  {
-    "name": "refactoring",
-    "color": "82ff9d",
-    "description": "Just improve code quality"
-  },
-  {
-    "name": "enterprise",
-    "color": "a7bf2f",
-    "description": "About Sider Enterprise"
-  },
-  {
     "name": "priority: high",
     "color": "eb6420",
     "description": "We should tackle immediately to this "
@@ -75,8 +65,18 @@
     "description": "We could do this later"
   },
   {
-    "name": "DO NOT MERGE",
-    "color": "dc3545",
-    "description": "Never merge this pull request!"
+    "name": "question",
+    "color": "d876e3",
+    "description": "Further information is requested"
+  },
+  {
+    "name": "refactoring",
+    "color": "82ff9d",
+    "description": "Just improve code quality"
+  },
+  {
+    "name": "wontfix",
+    "color": "eeeeee",
+    "description": "This will not be worked on"
   }
 ]
