@@ -75,6 +75,11 @@
     "description": "Just improve code quality"
   },
   {
+    "name": "security",
+    "color": "ee0701",
+    "description": "About a security vulnerability"
+  },
+  {
     "name": "wontfix",
     "color": "eeeeee",
     "description": "This will not be worked on"
