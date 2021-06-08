@@ -50,6 +50,11 @@
     "description": "This doesn't seem right"
   },
   {
+    "name": "performance",
+    "color": "37c7cc",
+    "description": "Performance optimization"
+  },
+  {
     "name": "pinned",
     "color": "c5def5",
     "description": "Prevent to be closed"
